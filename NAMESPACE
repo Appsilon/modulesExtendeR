@@ -2,5 +2,6 @@
 
 export(import)
 importFrom(magrittr,"%>%")
+importFrom(modules,"import_")
 importFrom(pkgmaker,"sVariable")
 importFrom(purrr,"map")

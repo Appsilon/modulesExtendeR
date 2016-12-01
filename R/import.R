@@ -1,6 +1,7 @@
 #' @importFrom magrittr "%>%"
 #' @importFrom pkgmaker "sVariable"
 #' @importFrom purrr "map"
+#' @importFrom modules "import_"
 
 
 importsStack <- pkgmaker::sVariable(c("."))
