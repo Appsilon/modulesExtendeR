@@ -48,3 +48,10 @@ import <- function(relativePath) {
   importsStack <- importsStack()[1:length(importsStack()) - 1]
   result
 }
+
+#' Cache should be cleared at the begining of all imports to avoid sessions restarts to load changes.
+#'
+#' @export
+clear_cache <- function() {
+  modules:::clear_modules_cache()
+}
